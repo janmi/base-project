@@ -2,7 +2,7 @@
 * @Author: janmi
 * @Date:   2015-07-04 17:22:00
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-04-29 11:34:28
+* @Last Modified time: 2016-04-29 11:53:24
 */
 
 var gulp = require('gulp'),
@@ -22,11 +22,6 @@ var gulp = require('gulp'),
     rev = require('gulp-rev'),
     base64 = require('gulp-base64'),
     img64 = require('gulp-img64');
-
-
-    var SRC = 'src/';
-    var DEST = 'dist/';
-    var project = ['project','project2','project3'];
 
     gulp.task('less', function(){
         gulp.src('src/less/**/*.less', {base:'src/less'})
